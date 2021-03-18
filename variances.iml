@@ -15,6 +15,18 @@
       <excludeFolder url="file://$MODULE_DIR$/unox-flutter-resmodules/modular_mobx_resources/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/unox-flutter-resmodules/modular_mobx_resources/build" />
       <excludeFolder url="file://$MODULE_DIR$/unox-flutter-resmodules/modular_mobx_resources/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/unox-flutter-resmodules/hive_db_resources/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/unox-flutter-resmodules/hive_db_resources/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/unox-flutter-resmodules/hive_db_resources/build" />
+      <excludeFolder url="file://$MODULE_DIR$/unox-flutter-resmodules/maskedinput_resources/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/unox-flutter-resmodules/maskedinput_resources/build" />
+      <excludeFolder url="file://$MODULE_DIR$/unox-flutter-resmodules/maskedinput_resources/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/unox-flutter-resmodules/abstract_db_resources/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/unox-flutter-resmodules/abstract_db_resources/build" />
+      <excludeFolder url="file://$MODULE_DIR$/unox-flutter-resmodules/abstract_db_resources/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/unox-flutter-resmodules/rest_resources/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/unox-flutter-resmodules/rest_resources/build" />
+      <excludeFolder url="file://$MODULE_DIR$/unox-flutter-resmodules/rest_resources/.pub" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Dart SDK" level="project" />

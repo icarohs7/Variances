@@ -28,7 +28,10 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Variances'),
+        title: GestureDetector(
+          onTap: () => context.focusScope.unfocus(),
+          child: Text('Variances'),
+        ),
         centerTitle: true,
       ),
       body: Padding(

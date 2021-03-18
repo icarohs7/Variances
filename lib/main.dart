@@ -14,6 +14,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
+        accentColor: Colors.blue,
+        brightness: Brightness.dark,
         inputDecorationTheme: InputDecorationTheme(border: OutlineInputBorder()),
       ),
       home: Home(),
@@ -56,46 +58,43 @@ class Home extends StatelessWidget {
               return Column(
                 mainAxisSize: MainAxisSize.min,
                 children: [
-                  DefaultTextStyle(
-                    style: context.bodyText1!,
-                    child: Theme(
-                      data: ThemeData(
-                        textTheme: TextTheme(caption: TextStyle(color: Colors.green)),
-                      ),
-                      child: Row(
-                        children: [
-                          Expanded(
-                            child: ValueTile(
-                              title: (value * 1.001).toStringAsFixed(8),
-                              subtitle: '+0.1%',
-                            ),
+                  Theme(
+                    data: ThemeData(
+                      textTheme: TextTheme(caption: TextStyle(color: Colors.green)),
+                    ),
+                    child: Row(
+                      children: [
+                        Expanded(
+                          child: ValueTile(
+                            title: (value * 1.001).toStringAsFixed(8),
+                            subtitle: '+0.1%',
                           ),
-                          Expanded(
-                            child: ValueTile(
-                              title: (value * 1.002).toStringAsFixed(8),
-                              subtitle: '+0.2%',
-                            ),
+                        ),
+                        Expanded(
+                          child: ValueTile(
+                            title: (value * 1.002).toStringAsFixed(8),
+                            subtitle: '+0.2%',
                           ),
-                          Expanded(
-                            child: ValueTile(
-                              title: (value * 1.01).toStringAsFixed(8),
-                              subtitle: '+1%',
-                            ),
+                        ),
+                        Expanded(
+                          child: ValueTile(
+                            title: (value * 1.01).toStringAsFixed(8),
+                            subtitle: '+1%',
                           ),
-                          Expanded(
-                            child: ValueTile(
-                              title: (value * 1.02).toStringAsFixed(8),
-                              subtitle: '+2%',
-                            ),
+                        ),
+                        Expanded(
+                          child: ValueTile(
+                            title: (value * 1.02).toStringAsFixed(8),
+                            subtitle: '+2%',
                           ),
-                          Expanded(
-                            child: ValueTile(
-                              title: (value * 1.05).toStringAsFixed(8),
-                              subtitle: '+5%',
-                            ),
+                        ),
+                        Expanded(
+                          child: ValueTile(
+                            title: (value * 1.05).toStringAsFixed(8),
+                            subtitle: '+5%',
                           ),
-                        ],
-                      ),
+                        ),
+                      ],
                     ),
                   ),
                   Theme(

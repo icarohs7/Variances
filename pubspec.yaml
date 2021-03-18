@@ -1,0 +1,18 @@
+name: variances
+description: Measure percentual variances of a value
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+dependencies:
+  core_resources:
+    path: ./unox-flutter-resmodules/core_resources
+  flutter:
+    sdk: flutter
+  modular_mobx_resources:
+    path: ./unox-flutter-resmodules/modular_mobx_resources
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
